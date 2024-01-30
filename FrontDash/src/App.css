@@ -2,3 +2,10 @@
     display: flex;
     flex-direction: row;
 }
+
+.content-app{
+    width: 100%;
+
+    display: flex;
+    justify-items: center;
+} 
