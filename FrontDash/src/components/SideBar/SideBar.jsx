@@ -1,9 +1,9 @@
-import React from "react";
 import "./sideBar.css";
 import { IoIosCalendar } from "react-icons/io";
 import { FiActivity } from "react-icons/fi";
 import { FaCircleUser } from "react-icons/fa6";
 import { IoLogOutOutline } from "react-icons/io5";
+import {NavLink } from "react-router-dom";
 
 export const SideBar = () => {
   return (
@@ -20,37 +20,38 @@ export const SideBar = () => {
         </div>
 
         <div className="pagseAside">
-            <div className="title-content">
-                <h3>Páginas</h3>
-            </div>
-          
+          <div className="title-content">
+            <h3>Páginas</h3>
+          </div>
 
           <div className="contentPages">
-            <div className="page-link">
-                <div className="icon-nav">
-                   <IoIosCalendar /> 
-                </div>
-              <p>Calendário</p>
-            </div>
 
+          <NavLink to="/Calendar" className="loc">
             <div className="page-link">
-            <div className="icon-nav">
-              <FiActivity />
+              <div className="icon-nav">
+                <IoIosCalendar />
+              </div>
+              <p className="funcTo">Calendário</p>
+            </div>
+            </NavLink>
+            <div className="page-link">
+              <div className="icon-nav">
+                <FiActivity />
               </div>
               <p>Ver Atividades</p>
             </div>
 
             <div className="page-link">
-            <div className="icon-nav">
-              <FaCircleUser />
+              <div className="icon-nav">
+                <FaCircleUser />
               </div>
               <p>Perfil</p>
             </div>
             <div className="logOut">
               <div className="page-link">
-              <div className="icon-nav">
-              <IoLogOutOutline />
-              </div>
+                <div className="icon-nav">
+                  <IoLogOutOutline />
+                </div>
                 <p>Sair</p>
               </div>
             </div>

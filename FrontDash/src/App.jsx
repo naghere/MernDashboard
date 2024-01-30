@@ -1,16 +1,13 @@
-import { useState } from 'react'
-import './App.css'
-import { SideBar } from './components/SideBar/SideBar'
+// App.js
 
+import './App.css';
+import Router from './Routes/Router';
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-        <div>
-          <SideBar/>
-        </div>
-    
-  )
+    <div >
+      <Router/>
+    </div>
+  );
 }
 
-export default App
+export default App;
