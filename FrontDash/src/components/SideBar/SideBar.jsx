@@ -1,4 +1,5 @@
 import "./sideBar.css";
+import { IoMdHome } from "react-icons/io";
 import { IoIosCalendar } from "react-icons/io";
 import { FiActivity } from "react-icons/fi";
 import { FaCircleUser } from "react-icons/fa6";
@@ -25,7 +26,14 @@ export const SideBar = () => {
           </div>
 
           <div className="contentPages">
-
+          <NavLink to="/" className="loc">
+            <div className="page-link">
+              <div className="icon-nav">
+                <IoMdHome />
+              </div>
+              <p className="funcTo">Home</p>
+            </div>
+            </NavLink>
           <NavLink to="/Calendar" className="loc">
             <div className="page-link">
               <div className="icon-nav">

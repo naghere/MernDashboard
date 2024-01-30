@@ -2,7 +2,7 @@
 
 const Calendar = () => {
   return (
-    <div>
+    <div className="HomeContent">
       <h1>Calendar</h1>
     </div>
   )

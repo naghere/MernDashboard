@@ -1,0 +1,54 @@
+.CardAct {
+  width: 200px;
+  height: 100%;
+  background-color: #fbfafa;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.14);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.14);
+}
+
+.logo-act {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  background: rgb(201,222,255);
+  background: radial-gradient(circle, rgba(201,222,255,1) 0%, rgba(180,160,255,1) 100%);
+}
+
+.logo-act {
+    color: #4224b0;
+}
+
+
+.infosCardsD{
+  padding: 6px;
+}
+.num-est{
+  display: flex;
+  flex-direction: row;
+  font-size: 17px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.num-est span{
+  margin-left: 10px;
+  font-size: 12px;
+  margin-top: 3px;
+  color: green;
+  
+}
+.infoAct p{
+  font-size: 15px;
+  font-weight: bold;
+  color: #a7a7a7 ;
+}
